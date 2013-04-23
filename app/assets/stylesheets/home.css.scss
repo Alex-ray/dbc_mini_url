@@ -1,0 +1,75 @@
+body, html {
+  background-color: rgb(253,237,208);
+}
+.container {
+  margin: 100px auto;
+  width: 50%;
+  height: 400px;
+  padding: 20px;
+  background-color: rgb(188,241,237);
+  border-radius: 20px;
+  box-shadow: -1px 2px rgb(145,183,180), 1px -2px rgb(255,255,255);
+}
+h1 {
+  text-align: center;
+  color: rgb(253, 121, 91);
+  text-shadow: 0px 1px rgb(206,82,60), 0px -1px rgb(252,203,196);
+}
+h2 {
+  text-align: center;
+  font-size: 1.25em;
+  color: rgb(253, 121, 91);
+  text-shadow: 0px 1px rgb(206,82,60), 0px -1px rgb(252,203,196);
+}
+form#login, form#signup, form#home, form#url, form#logout {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0px;
+}
+form#home, form#signup, form#logout {
+  padding-top: 0px;
+}
+form input#button, form button {
+  margin-top: 15px;
+  background-color: rgb(253, 121, 91);
+  border: none;
+  padding: 8px 8px;
+  width: 270px;
+  border-radius: 5px;
+  color: rgb(253,237,208);
+  box-shadow: 0px 1px rgb(206,82,60), 0px -1px rgb(252,203,196);
+  text-shadow: 0px -1px rgb(155,140,170), 0px 1px white;
+}
+form#signup button, form button {
+  background-color: rgb(253, 121, 91);
+  padding: 8px 8px;
+  width: 270px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(253,237,208);
+  box-shadow: 0px 1px rgb(206,82,60), 0px -1px rgb(252,203,196);
+  text-shadow: 0px -1px rgb(155,140,170), 0px 1px white;
+}
+form input#button:hover, form#signup button:hover, form button:hover {
+  box-shadow: 0px -1px rgb(206,82,60), 0px 1px rgb(252,203,196);
+  text-shadow: 0px 1px rgb(155,140,170), 0px -1px white;
+}
+
+form input[type="email"], form input[type="password"], form input[type="text"] {
+  background-color: rgb(253,237,208);
+  margin: 10px 0;
+  padding: 10px 5px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px -1px rgb(145,183,180), 0px 1px rgb(255,255,255);
+  color: gray;
+}
+
+text-area:focus, input:focus {
+  border-style: none;
+  border-color: gray;
+  outline: none;
+  color: gray;
+}

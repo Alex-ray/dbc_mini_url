@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>Signup for infinite URL's!</h1>
+
+  <%= form_for @user,:html => {:id => "signup"} do |f| %>
+    <%= f.text_field :name, :placeholder=>"User Name" %>
+    <%= f.password_field :password, :placeholder=>"*****" %>
+    <%= f.password_field :password, :placeholder=>"*****" %>
+    <%= f.submit "signup" %>
+  <% end %>
+</div>

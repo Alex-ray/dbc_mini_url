@@ -1,0 +1,11 @@
+<ul>
+<% @urls.each do |url| %>
+  <li><%= url.name %></li>
+<% end %>
+</ul>
+
+<%=form_for [@user, @url], :id => "url" do |f| %>
+  <%= f.text_field :name, :placeholder=>"name" %>
+  <%= f.text_field :address, :placeholder=>"url" %>
+  <%= f.submit "signup" %>
+<% end %>

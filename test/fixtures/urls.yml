@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  address: MyString
+  expires_at: 2013-04-22 17:02:31
+  user_id: 
+
+two:
+  name: MyString
+  address: MyString
+  expires_at: 2013-04-22 17:02:31
+  user_id: 
